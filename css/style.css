@@ -1,0 +1,195 @@
+@font-face {
+    font-family: Rubik-Regular;
+    src: url(../font/Rubik-Regular.ttf);
+}
+@font-face {
+    font-family: Rubik-Medium;
+    src: url(../font/Rubik-Medium.ttf);
+}
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: Rubik-Medium;
+}
+.contaner{
+    padding: 5% 5% 5% 10%;
+}
+
+.div-nav{
+    display: flex;
+    margin-right: 10%;
+    margin-top: 10px;
+}
+.flex-logo{
+    display: flex;
+    justify-content: space-between;
+}
+.fa-bookmark{
+    font-size: 15px;
+    width: 35px;
+    border: 10px;
+    padding: 10px 12px;
+    margin-right: 15px;
+    border-radius: 50px;
+    background-color: #5267df;
+    color: #fff;
+}
+.item-nav:hover{
+    color: #242A45;
+}
+.item-nav{
+    color: #9194A2;
+    font-family: Rubik-Regular;
+    text-decoration: none;
+    margin-right: 20px;
+    margin-top: 10px;
+}
+.btn-login:hover{
+    background-color: #C08484;
+    cursor: pointer;
+}
+.btn-login{
+    margin-left: 5%;
+    padding: 10px 30px;
+    background-color: #FA5959;
+    border: none;
+    border-radius: 3px;
+    color: #fff;
+}
+.flex-header{
+    display: flex;
+    flex-direction: column;
+}
+.main-header{
+    padding-top: 15%;
+    display: flex;
+    justify-content: space-between;
+}
+.flex-header{
+    font-family: Rubik-Medium;
+    padding-top: 7%;
+}
+.heading{
+    
+    word-spacing: 5px;
+    font-size: 50px;
+    letter-spacing: 2px;
+    margin-bottom: 5%;
+    color: #242A45;
+}
+.description{
+    margin-bottom: 5%;
+    word-spacing: 3px;
+    line-height: 1.5pc;
+    font-family: Rubik-Regular;
+    color: #9194A2;
+}
+.btn-Chrome:hover{
+    background-color:#6AC6D6;
+    cursor: pointer;
+}
+.btn-Chrome{
+    background-color: #5267DF;
+    padding: 15px 30px;
+    border: none;
+    margin-right: 10px;
+    border-radius: 5px;
+    color: #fff;
+}
+.btn-Firefox:hover{
+    background-color: #EC7878;
+    cursor: pointer;
+}
+.btn-Firefox{
+    background-color: #F7F7F7;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 5px;
+    color: #242A45;
+}
+.section-bookmark{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10%;
+}
+.header{
+    padding-left: 20%;
+    padding-top: 5%;
+}
+.btn-moreinfo:hover{
+    background-color:#6AC6D6;
+    cursor: pointer;
+}
+.btn-moreinfo{
+    background-color: #5267DF;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+}
+.br-section{
+    margin-top: 10%;
+    text-align: center;
+}
+.Download{
+    font-family: Rubik-Medium;
+    color: #242A45;
+}
+.Download-description{
+    font-family: Rubik-Regular;
+    color: #9194A2;
+    padding:15px 30%;
+}
+.all-boxes{
+    margin-top: 10%;
+    display: flex;
+    justify-content: space-evenly
+}
+.box{
+    box-shadow: 5% gray;
+    background-color: #fcfcfc;
+    text-align: center;
+    padding: 70px 30px 20px 30px;
+    border-radius: 10px;
+}
+.browser{
+    margin-bottom: 10%;
+}
+.add{
+    color: #242A45;
+    margin-bottom: 10%;
+}
+.version{
+    font-family: Rubik-Regular;
+    color:#9194A2;
+}
+.line{
+    border-top: 8px;
+    border-top-style:dotted;
+    margin-top: 45px;
+    border-color: rgb(223, 223, 223);
+}
+.btn-Install:hover{
+    background-color:#6AC6D6;
+    cursor: pointer;
+}
+.btn-Install{
+    margin-top: 20%;
+    padding: 15px 40px;
+    border: none;
+    border-radius: 5px;
+    background-color: #5267DF;
+    color: #fff;
+}
+.footer{
+    margin-top: 20%;
+    background-color: #242A45;
+    width: 100%;
+    text-align: center;
+    height: 80px;
+}
+.my-name{
+   padding-top: 25px;
+    color: #fff;
+}
